@@ -1,0 +1,20 @@
+
+1. Authentication:
+   - To access the Microsoft Graph API, you need to authenticate your application using Azure Active Directory (Azure AD). In the code, the `client_id`, `client_secret`, and `tenant_id` variables are placeholders that need to be replaced with your actual values.
+   - The code requests an access token from Azure AD by making a `POST` request to the token endpoint (`token_url`). It includes the client credentials (`client_id` and `client_secret`) and the desired scope (`https://graph.microsoft.com/.default`).
+   - The response from the token endpoint includes an access token, which is used to authorize subsequent requests to the Microsoft Graph API.
+
+2. Sending the email:
+   - The code sends an email using the `POST` method to the `sendMail` endpoint of the Microsoft Graph API (`sendmail_url`). The authenticated access token is included in the request headers.
+   - The email's subject, body, and recipient information are provided in the `email_data` dictionary as part of the request payload. You can customize these values according to your requirements.
+   - The email is sent to a single recipient specified by the `recipient_email` variable. You can modify the code to send emails to multiple recipients by adding more entries to the `toRecipients` list.
+
+3. Handling the response:
+   - After sending the email, the code checks the response status code. A status code of `202` indicates that the email was successfully accepted for delivery.
+   - If the status code is not `202`, the code prints an error message along with the status code and the response text for further investigation.
+
+Remember to ensure that your application has the necessary permissions and consent to send emails on behalf of the authenticated user. You may need to configure application permissions and grant consent in Azure AD.
+
+Additionally, keep in mind that the code provided is a basic example and may need modifications based on your specific requirements or any additional features you want to implement, such as attachments or formatting options for the email.
+
+For more information on using the Microsoft Graph API with Python, refer to the official documentation: https://docs.microsoft.com/en-us/graph/overview
