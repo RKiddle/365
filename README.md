@@ -1,2 +1,2 @@
-# Azure
-IaaS with Azure
+# 365
+365 apps
