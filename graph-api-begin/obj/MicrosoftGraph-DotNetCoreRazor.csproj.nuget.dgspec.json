@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rjk23\\OneDrive\\365\\mslearn-m365-microsoftgraph-dotnetcorerazor\\graph-api-begin\\MicrosoftGraph-DotNetCoreRazor.csproj": {}
+    "C:\\Users\\rjk23\\365\\graph-api-begin\\MicrosoftGraph-DotNetCoreRazor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rjk23\\OneDrive\\365\\mslearn-m365-microsoftgraph-dotnetcorerazor\\graph-api-begin\\MicrosoftGraph-DotNetCoreRazor.csproj": {
+    "C:\\Users\\rjk23\\365\\graph-api-begin\\MicrosoftGraph-DotNetCoreRazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rjk23\\OneDrive\\365\\mslearn-m365-microsoftgraph-dotnetcorerazor\\graph-api-begin\\MicrosoftGraph-DotNetCoreRazor.csproj",
+        "projectUniqueName": "C:\\Users\\rjk23\\365\\graph-api-begin\\MicrosoftGraph-DotNetCoreRazor.csproj",
         "projectName": "MicrosoftGraph-DotNetCoreRazor",
-        "projectPath": "C:\\Users\\rjk23\\OneDrive\\365\\mslearn-m365-microsoftgraph-dotnetcorerazor\\graph-api-begin\\MicrosoftGraph-DotNetCoreRazor.csproj",
+        "projectPath": "C:\\Users\\rjk23\\365\\graph-api-begin\\MicrosoftGraph-DotNetCoreRazor.csproj",
         "packagesPath": "C:\\Users\\rjk23\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rjk23\\OneDrive\\365\\mslearn-m365-microsoftgraph-dotnetcorerazor\\graph-api-begin\\obj\\",
+        "outputPath": "C:\\Users\\rjk23\\365\\graph-api-begin\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rjk23\\AppData\\Roaming\\NuGet\\NuGet.Config",
