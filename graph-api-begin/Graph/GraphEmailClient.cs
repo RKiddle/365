@@ -25,14 +25,39 @@ namespace DotNetCoreRazor_MSGraph.Graph
             _logger = logger;
             _graphServiceClient = graphServiceClient;
         }
-        )
+        
         {
             
         }
 
         public async Task<IEnumerable<Message>> GetUserMessages()
         {
-            // Remove this code
+            try
+        {
+            // Get the messages
+                    var emails = await _graphServiceClient.Me.Messages
+                    .Request()
+                    .Select(msg => new
+                    {
+                        msg.Subject,
+                        msg.BodyPreview,
+                        msg.ReceivedDateTime
+                    })
+                    .OrderBy("receivedDateTime desc")
+                    .Top(10)
+                    .GetAsync();
+        return emails.CurrentPage;
+
+
+        }
+        catch (Exception ex)
+        {
+        _logger.LogError($"Error calling Graph /me/messages: { ex.Message}");
+        throw;
+        }
+
+
+
             return await Task.FromResult<IEnumerable<Message>>(null);
         }
 
