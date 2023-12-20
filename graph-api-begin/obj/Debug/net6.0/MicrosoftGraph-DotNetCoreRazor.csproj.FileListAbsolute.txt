@@ -1,0 +1,9 @@
+C:\Users\rjk23\365\graph-api-begin\obj\Debug\net6.0\MicrosoftGraph-DotNetCoreRazor.csproj.AssemblyReference.cache
+C:\Users\rjk23\365\graph-api-begin\obj\Debug\net6.0\MicrosoftGraph-DotNetCoreRazor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rjk23\365\graph-api-begin\obj\Debug\net6.0\MicrosoftGraph-DotNetCoreRazor.AssemblyInfoInputs.cache
+C:\Users\rjk23\365\graph-api-begin\obj\Debug\net6.0\MicrosoftGraph-DotNetCoreRazor.AssemblyInfo.cs
+C:\Users\rjk23\365\graph-api-begin\obj\Debug\net6.0\MicrosoftGraph-DotNetCoreRazor.csproj.CoreCompileInputs.cache
+C:\Users\rjk23\365\graph-api-begin\obj\Debug\net6.0\MicrosoftGraph-DotNetCoreRazor.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\rjk23\365\graph-api-begin\obj\Debug\net6.0\MicrosoftGraph-DotNetCoreRazor.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rjk23\365\graph-api-begin\obj\Debug\net6.0\MicrosoftGraph-DotNetCoreRazor.RazorAssemblyInfo.cache
+C:\Users\rjk23\365\graph-api-begin\obj\Debug\net6.0\MicrosoftGraph-DotNetCoreRazor.RazorAssemblyInfo.cs
